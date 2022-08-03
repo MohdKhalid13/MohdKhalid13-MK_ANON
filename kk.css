@@ -1,0 +1,336 @@
+*{
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.header {
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  border: 3px solid black;
+}
+h1{
+  margin-top: 15px;
+}
+h2{
+  margin-top: 20px;
+  color: #fff;
+  margin-left: 20px;
+}
+.col-3 {
+    background-color: olive;
+    text-align: center;
+    border: 3px solid black;
+}
+.col-9 {
+    background-color:wheat;
+    border: 3px solid black;
+}
+.con{
+  text-align: center;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 25%;
+}
+p{
+  width: 70%;
+  margin: 0 auto;
+}
+.footer{
+  background-color: #333;
+  position: relative;
+  padding: 20px;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  border: 3px solid black;
+}
+#head,#head1,#head2,#head3,#head4,#head5,#body,#body1,#body2,#body3,#body4,#body5{
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: aqua;
+  width: 103.3%;
+  border: 5px solid #333;
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#body,#body1,#body2,#body3,#body4,#body5{
+  display: none;
+  background-color: olive;
+  border: 3px solid olive;
+}
+#head5{
+  margin-bottom: 50px;
+}
+#content, #content1 ,#content2 ,#content3 ,#content4{
+  margin-top: 50px;
+  margin-left: -30px;
+}
+#content5{
+  margin-bottom: 30px;
+  margin-left: -30px;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li{
+  margin-top: 25px;
+}
+svg{
+  height: 75px;
+  width: 75px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-right: 20px;
+  /* animation-name: svg; */
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes svg{
+  0%{
+    color: springgreen;
+  }
+  50%{
+    color: wheat;
+  }
+  100%{
+    color: aquamarine;
+  }
+}
+svg:hover{
+  color: chartreuse;
+}
+.header{
+  text-align: right;
+}
+.header ul li {
+  display: inline;
+  cursor: pointer;
+  padding-right: 20px;
+}
+.col-2{
+  padding-top: 35px;
+  background-color: #333;
+  text-align: center;
+}
+.company{
+  float: left;
+}
+img{
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+#hhh{
+  float: left;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  margin-top: 20px;
+  cursor: pointer;
+  animation-name: hhh;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes hhh{
+  from{
+    color: aqua;
+  }
+  to{
+    color: red;
+  }
+}
+  @media screen and (max-width:800px){
+    ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    ul li{
+      margin-top: 10px;
+    }
+    #head,#head1,#head2,#head3,#head4,#head5{
+      color: black;
+      font-size: 25px;
+      cursor: pointer;
+      background-color: aqua;
+      border: 5px solid #333;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 100%;
+    }
+    #content, #content1 ,#content2 ,#content3 ,#content4{
+      margin-left: 0px;
+      margin-top: 40px;
+    }
+    #content5{
+      margin-left: -25px;
+      margin-top: 30px;
+    }
+    .nav-links ul li a{
+      font-size: 25px;
+    }
+    h2{
+      font-size: 25px;
+      margin-top: 40px;
+      margin-left: 15px;
+      color: #fff;
+    }
+    .footer{
+      background-color: black;
+      color: #fff;
+      position: relative;
+      padding: 20px;
+      bottom: 0;
+      z-index: 1;
+      width: 100%;
+      text-align: center;
+    }
+    .col-3{
+      width: 100%;
+    }
+    .col-9{
+      width: 100%;
+      padding: 50px;
+      text-align: center;
+      font-size: 25px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .col-2{
+    padding-top: 50px;
+    width: 100%;
+    height: 150px;
+  }
+  .con{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: -120px;
+  }
+  svg{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    width: 100%;
+    float: right;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  a{
+    width: 100%;
+    float: right;
+    padding-right: 40px;
+    margin-bottom: 40px;
+  }
+  .header{
+    text-align: center;
+  }
+  .header ul li {
+    display: inline;
+    cursor: pointer;
+  }
+  }
+@media screen and (max-width:1250px) and (min-width:800px){
+  svg{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    width: 100%;
+    float: right;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  a{
+    width: 100%;
+    float: right;
+    padding-right: 40px;
+    margin-bottom: 40px;
+  }
+  .header{
+    text-align: center;
+  }
+  .header ul li {
+    display: inline;
+    cursor: pointer;
+  }
+  #head,#head1,#head2,#head3,#head4,#head5{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    border: 5px solid #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin-left: 3%;
+  }
+  #content, #content1 ,#content2 ,#content3 ,#content4 ,#content5{
+    margin-left: 0px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .nav-links ul li a{
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width:1400px)and (min-width:1000px) {
+  #head,#head1,#head2,#head3,#head4,#head5{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    border: 5px solid #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width:500px){
+
+  .col-2{
+    padding-top: 50px;
+    width: 100%;
+    height: 150px;
+    padding-left: 40px;
+  }
+  .col-9{
+    padding-left: 40px;
+    padding-top: 100px;
+  }
+   svg{
+       padding-left: 35px;
+  }
+  a{
+    padding-left: 35px;
+
+  }
+  #hhh{
+    padding-left: 35px;
+  }
+  #body,#body1,#body2,#body3,#body4,#body5{
+    padding-right: 50px;
+  }
+  #body5{
+    padding-right: 15px;
+
+  }
+  .first{
+    padding-right: 25px;
+    /* text-align: center; */
+
+  }
+
+}
+  
+
+
